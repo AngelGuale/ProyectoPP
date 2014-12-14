@@ -455,14 +455,14 @@ lstConcursos{
     
     
 }
-#OfferList{
+#OfferList, #IncList, #DemandaList{
     height: 100%;
     width: 70%;
     float: left;
     
 }
 
-.offer{
+.offer, .divInc, .divDemanda{
   width: 90%;  
   margin-top: 15px;
   margin-left: 25px;
