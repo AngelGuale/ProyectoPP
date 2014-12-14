@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usuarios>
+	<usuario>
+		<nombre>Angel Guale</nombre>
+		<nacimiento>12/11/2002</nacimiento>
+		<foto>./img/foto1.jpg</foto>
+		<correo>angelguale@espol.edu.ec</correo>
+		<contrasenia>dificil</contrasenia>
+	</usuario>
+
+</usuarios>
