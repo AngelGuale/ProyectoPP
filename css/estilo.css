@@ -6,6 +6,35 @@ body {
   color:#000;
   height:100%;
 }
+
+.btnGeneral{
+    cursor: pointer;
+    border: 1px solid #dedede;
+    display: inline-block;
+    color: #C3C4E7;
+    border-radius: 5px;
+    margin-right: 10px;
+    float: right;
+    font: bold 12px/12px HelveticaNeue, Arial;
+    padding: 8px 11px; 
+    text-decoration: none; 
+    background: #ab2121;
+    border-color: #dedede #d8d8d8 #d3d3d3;
+    box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    color: #C3C4E7;
+    border-color: #6467B7 #51539B #7C7FD2;
+    box-shadow: 0 1px 1px #c1c1c1, inset 0 1px 0 #F90C38;
+    text-shadow: 0 1px 0 #292A46;
+    background: -webkit-linear-gradient(top, #1419A8, #5F64EB);
+}
+
+.btnGeneral:hover{
+    background: #a63030;
+    border-color: #dedede #d8d8d8 #d3d3d3;
+    box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;   
+    background: -webkit-linear-gradient(top, #5F64EB, #1419A8);
+}
+
 p {
   margin: 1em 0;
   padding: 0;
