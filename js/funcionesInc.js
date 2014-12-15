@@ -12,6 +12,7 @@ function cargarIncubacion(){
 	
 function mostrarIncubacion(response){
 //	alert("mostrar");
+    
 	var docxml=response.target.responseXML;
 	console.log(response);
 	var incubaciones=docxml.getElementsByTagName("incubacion");
@@ -57,5 +58,6 @@ function mostrarIncubacion(response){
     
 	}
 
+    
 
 window.addEventListener("load", cargarIncubacion, false);
