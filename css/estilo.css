@@ -386,6 +386,10 @@ lstConcursos{
     height:100%;
 }
 
+.desc{
+    height: 54px;
+}
+
 .ranking{
     float: left;
     height: auto;
