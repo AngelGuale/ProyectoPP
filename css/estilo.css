@@ -175,13 +175,12 @@ header {
     width: 180px;
     height: 180px;
 }
+
 aside{
-  float: left;  
+  float: right;  
   width: 30%;
   height: 100%;
-  
   padding-bottom:20px;
- 
 }
 
 #nombreBienvenida{
@@ -651,4 +650,108 @@ margin-top: 0em;
 .formulario{
 font-size: 12px;
 margin-bottom: 0;
+}
+
+/*Añadido*/
+#nombreUsuario{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+#datosPers #inst{
+    font-size: 14px;
+}
+
+#noti{
+    padding: 5px 50px 5px 5px;
+}
+
+#infoSeccion2 {
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#imagenEmpresa2 {
+    float:left;
+    width: 160px;
+    height: 160px;
+    margin: 0 10px 10px 0;
+}
+
+#submenu2 {
+  float: left;
+  margin:0;
+  padding:0;
+}
+
+#submenu2 ul {
+  margin: 0 5px;
+  padding: 0;
+  list-style:none;
+}
+
+#submenu2 ul li {
+  margin: 0;
+  padding-top: 5px;
+  float:left;
+}
+
+#submenu2 ul li a {
+  display: block;
+  position: relative;
+  padding: 0px 50px;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  background: #000;
+  color: #FFF;
+  width: 120px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Rotate-90
+{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+ 
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+ 
+  font-size: smaller;
+  background: #e0e0e0;
+  width: 10px;
+  position: relative;
+  top: 0px;
+}
+
+#submenu2 ul li a:hover {
+  background: #31479B;
+}
+
+#submenu2 ul li.seleccionado a {
+  background: #FFF;
+  color: #000;
+}
+
+.noticias2{
+  float: left;
+  margin-top: 15px;
+  margin-right: 25px;
+  padding:5px 25px 5px 5px;
+  font-size: 110%;
+  font-family: "georgia", serif;
+  font-weight: normal;
+  background-color:#D8D8D8;
+  border-radius:10px;
 }
