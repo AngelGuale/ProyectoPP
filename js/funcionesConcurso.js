@@ -30,7 +30,7 @@ function mostrarConcurso(response){
         var anchor = document.createElement("a");
         var part = document.createElement("p");//parrafo donde se visualizara el num de participantes
         var rank = document.createElement("div");//div donde se colocaran las estrellas de ranking
-        var divEst = document.createElement("img");
+        
 
         divNombre.innerText="Nombre: "+nombre;
         divDescripcion.innerText="Descripción: "+descripcion;
@@ -38,19 +38,21 @@ function mostrarConcurso(response){
         anchor.innerText = "Acceder";
         part.innerText = "Num. Participantes: " + participantes;
         for (j = 0; j < ranking;j++){
+            var divEst = document.createElement("img");
             divEst.setAttribute("class", "estrella");
             divEst.setAttribute("src", urlestrella);
             divEst.setAttribute("alt", "estrella");
             rank.appendChild(divEst);    
         }
         for (k = 0; k < 5 - ranking;k++){
+            var divEst = document.createElement("img");
             divEst.setAttribute("class", "estrella");
             divEst.setAttribute("src", urlestrellaNegra);
             divEst.setAttribute("alt", "estrella sin puntuar");
             rank.appendChild(divEst); 
         }
 
-        
+        divDescripcion.setAttribute("class","desc")
         divNombre.setAttribute("class", "lateral");
         divConcurso.setAttribute("class", "concurso");
         divImg.setAttribute("class", "logoconc");
