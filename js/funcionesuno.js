@@ -28,13 +28,14 @@ function loginresponsefunction(response){
         usuario=listausuarios[i];
         nombreactual=usuario.getElementsByTagName("correo")[0].innerHTML;
         claveactual=usuario.getElementsByTagName("clave")[0].innerHTML;
-        
+        id=usuario.getElementsByTagName("id")[0].innerHTML;
+
         if(nombreactual==uname && clave==claveactual){
             
             console.log("login");
             id=i;
             
-            document.location.href="../html/Perfil.html";
+            document.location.href="../html/Perfil.html?id="+id;
             
             break;
             
