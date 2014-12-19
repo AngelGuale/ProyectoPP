@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>REI-NET</title>
+         <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    </head>
+    <body>
+        <div id="contenedor">
+        <header>
+            <section id="banner">
+                <h1 id="headPage">REI-NET</h1>
+                
+            </section>
+            
+        <div class="clear"></div>
+        </header>
+       
+        <section id="contentRegistro">
+            <div id="cuerpo">
+ 
+                <form id="login" action="procesarFormulario.php" method="post" >
+                    <p><label class="etiqueta"for="nombre">Nombre:</label>
+                        <input name="nombre" type="text" id="nombre" class="nombre" placeholder="Pon tu nombre" required/></p>
+ 
+                    
+                    <p><label class="etiqueta" for="apellidos">Apellidos:</label>
+                        <input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Pon tus apellidos" required/></p>
+                   
+ 
+                    <p><label  class="etiqueta" for="correo">Correo:</label>
+                      <input name="correo" type="text" id="correo" class="correo" placeholder="Pon tu mail"  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required /></p>
+
+                     <p><label  class="etiqueta" for="direccion">Direccion:</label>
+                      <input name="direccion" type="text" id="direccion" class="direccion" placeholder="Pon tu direccion" required/></p>
+
+                     <p><label  class="etiqueta" for="Telefono" >Telefono: </label>
+                      <input name="Telefono" type="text" id="Telefono" class="Telefono" placeholder="Pon tu telefono" pattern="[0-9]{9}"/></p>
+
+                     <p><label  class="etiqueta" for="Telefono">Ciudad:</label>
+                      <input name="Telefono" type="text" id="ciudad" class="Telefono" placeholder="Pon tu ciudad" required/></p>
+                     
+                    <p><label  class="etiqueta" for="Telefono">Fecha de Nac.:</label>
+
+                      <input name="Telefono" type="text" id="Nacimiento" class="Telefono" placeholder="Pon tu fecha de Nacimiento" required/></p>
+ 
+                    <p><label  class="etiqueta" for="pass">Password:</label>
+                        <input name="pass" type="password" id="pass" class="pass" placeholder="Pon tu contraseña" required/></p>
+ 
+                    <p><label class="etiqueta" for="repass">Repetir Password:</label>
+                     <input name="repass" type="password" id="repass" class="repass" placeholder="Repite contraseña" required/></p>
+                    
+                  
+                                   
+                    <p id="bot"><p class="submit"><input type="submit" style="width:300px; height:40px;"  name="commit" value="Registrar"></p></p>
+                </form>
+            </div>
+        </section>
+        
+
+        <footer>
+            <div class="clear"></div>
+            <p id="pie">Copyright Proyecto</p>
+        </footer>
+    </div>   
+    </body>
+</html>
