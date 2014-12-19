@@ -83,6 +83,7 @@ ul, ol {
     border-radius: 15px 15px 15px 15px;
     width:80%; height: 100%; margin: 50px auto 50px auto;
     background-color: #fff;
+    
 }
 
 header {
@@ -99,6 +100,7 @@ header {
     height: 100%;/*Cambio de 500px al 100%*/
     position: relative;
      margin: 0px auto 0 auto;
+     background-color: #fff;
 }
 #banner{
     width: 70%;
@@ -165,11 +167,19 @@ header {
 }
 #textoInfor {
     padding-top: 30px;
+    padding-right: 30px;
+    text-align:justify;
     float: left;
     width: 70%;
     height: 90%;
 }
 #imagenEmpresa {
+    float:left;
+    padding-top: 50px;
+    width: 180px;
+    height: 180px;
+}
+#imagenPersona {
     float:left;
     padding-top: 50px;
     width: 180px;
@@ -212,8 +222,9 @@ footer {
     border-radius: 0 0 15px 15px;
     clear: both;
     height: 60px;
-    position: relative;
+    
     background-color: #153C8F;
+    overflow: hidden;
     color: #fff;
 }
 #pie {
@@ -488,6 +499,7 @@ lstConcursos{
     
 }
 #OfferList, #IncList, #DemandaList{
+    padding-bottom: 20px;
     height: 100%;
     width: 70%;
     float: left;
@@ -529,9 +541,18 @@ lstConcursos{
 }
 
 #login {
+        display:block;
+        width:30%; height: 60%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 35%;
+        margin-right: 35%;
     
-        width:80%; height: 60%; margin: 50px auto 50px auto;
-    
+}
+.etiqueta {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
 }
 #noticiasPrincipales {
     overflow:hidden; 
