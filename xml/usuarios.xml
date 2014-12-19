@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <usuarios>
 	<usuario>
+        <id>001</id>
 		<nombre>Angel Guale</nombre>
 		<ci>0989829999</ci>
 		<nacimiento>12/11/2002</nacimiento>
@@ -18,6 +19,7 @@
 	</usuario>
 	
 	<usuario>
+        <id>002</id>
 		<nombre>Ray Montiel</nombre>
 		<ci>09673548463</ci>
 		<nacimiento>07/11/1998</nacimiento>
@@ -33,5 +35,21 @@
 		<areasinteres>Multimedia, graficos</areasinteres>
 		<clave>facil</clave>
 	</usuario>
-
+    <usuario>
+        <id>003</id>
+		<nombre>Pedro Navaja</nombre>
+		<ci>0989829999</ci>
+		<nacimiento>12/11/2002</nacimiento>
+		<institucion>Espol</institucion>
+		<cargo>Estudiante</cargo>
+		<actividad>Estudio en espol</actividad>
+		<pais>Ecuador</pais>
+		<ciudad>Guayaquil</ciudad>
+		<foto>./img/foto1.jpg</foto>
+		<sitioweb>www.espol.edu.ec</sitioweb>
+		<telefono>09867236364</telefono>
+		<correo>xxx</correo>
+		<areasinteres>Multimedia, matemáticas</areasinteres>
+		<clave>xxx</clave>
+	</usuario>
 </usuarios>
